@@ -1,0 +1,122 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+#define double long double
+#define endl '\n'
+#define no cout<<"NO\n"
+#define yes cout<<"YES\n"
+#define Flashyy ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define sp " "
+#define all(x) x.begin(), x.end()
+
+template <typename T> // cin >> vector<T>
+istream &operator>>(istream &istream, vector<T> &v)
+{
+    for (auto &it : v)
+        cin >> it;
+    return istream;
+}
+template <typename T> // cout << vector<T>
+ostream &operator<<(ostream &ostream, const vector<T> &c)
+{
+    for (auto &it : c)
+        cout << it << " ";
+    return ostream;
+}
+
+int gcd(int a, int b) {
+    while (b != 0) {
+        int tmp = a % b;
+        a = b;
+        b = tmp;
+    }
+    return a;
+}
+int lcm(int a, int b) {
+    return a * b / gcd(a, b);
+}
+
+int rsum(int x, int y){
+    if(x>y)return 0;
+    return (x+y)*(y-x+1)/2;
+}
+
+#define tc int TC;cin>>TC;for(int tt=1;tt<=TC;tt++)
+
+int32_t main(){
+    Flashyy
+    tc
+    {
+        int n,x,y,sum=0,cnt=0;
+        cin>>n>>x>>y;
+        vector<int> arr(n);
+        for(int i=0;i<n;i++){
+            cin>>arr[i];
+            sum+=arr[i];
+        }
+        //cout<<sum;
+        sort(all(arr));
+        // int* it1=&arr[0];
+        // int* it2=&arr[n-1];
+
+        // while(it1!=it2){
+        //     if(sum-*it1-*it2<x){
+        //         it2--;
+        //         it1=&arr[0];
+        //     }
+        //     else if(sum-*it1-*it2>y){
+        //         it1++;
+        //         //it2=&arr[n-1];
+        //     }
+        //     else if(sum-*it1-*it2>=x && sum-*it1-*it2<=y){
+        //         cnt++;
+        //         if(it1+1==it2){
+        //             it2--;
+        //             it1=&arr[0];
+        //         }
+        //         else it1++;
+        //     }
+        // }
+        for(int i=0;i<n;i++){
+            auto it1=lower_bound(arr.begin()+i+1,arr.end(),sum-y-arr[i])-arr.begin();
+            auto it2=upper_bound(arr.begin()+i+1,arr.end(),sum-x-arr[i])-arr.begin();
+            cnt+=it2-it1;
+        }
+
+        cout<<cnt<<endl;
+    }
+return 0;
+}
+
+// int32_t main(){
+//     Flashyy
+//     tc 
+//     {
+//         int n,x,y;
+//         cin>>n>>x>>y;
+//         vector<int>arr(n);
+//         cin>>arr;
+        
+//         int cnt=0;
+//         int total=1<<n;
+
+//         for(int m=0;m<total;m++) {
+//             int sum=0;
+//             int l=0;
+
+//             for(int i=0;i<n;i++) {
+//                 if(m&(1<<i)){
+//                     sum+=arr[i];
+//                     l++;
+//                 }
+//             }
+
+//             if(l==n-2 && sum>=x && sum<=y) {
+//                 cnt++;
+//             }
+//         }
+
+//         cout<<cnt<<endl;
+//     }
+//     return 0;
+// }

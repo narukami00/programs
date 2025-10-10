@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1733204056 source:f:\projects\programs\demo_hackathon\main.cpp
+	<iostream>
+	<stdio.h>
+	<fstream>
+	<sstream>
+	<string>
+	<iomanip>
+	<unistd.h>
+	<stdlib.h>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<ctime>
+	<ctime>
+

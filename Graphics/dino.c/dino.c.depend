@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1705055526 source:d:\codeblocks\projects\graphics\dino.c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+

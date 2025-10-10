@@ -1,0 +1,9 @@
+cpu,i57th,Core i5 7th Generation,3500
+laptop,z17g4,HP Zbook 17 G4,159000
+keyboard,mk99,KING MK75 RGB Gaming Laptop,3000
+gpu,rtx4090,Zotac RTX 4090 8GB,100000
+mouse,logir55,Logitech R55 RBG Gaming Mouse,2500
+mouse,logi420,Logitech V420 Gaming Mouse,2500
+ram,ki8d4,Kingston Fury R8 8GB DDR4,6000
+laptop,lenid2,Lenovo Ideapad M2,78000
+gpu,gtx1660s,Nvidia GTX 1660 Super 6GB,80000

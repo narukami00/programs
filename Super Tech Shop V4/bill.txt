@@ -1,0 +1,5 @@
+Product: Laptop, Product Name: Acer Nitro 55 (Quantity: 1)
+Price per unit: 90000
+Product cost: 90000
+--------------------------
+Total Bill Amount: 90000

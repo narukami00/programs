@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1734006746 source:f:\projects\programs\bit_2_console\main.cpp
+	<bits/stdc++.h>
+	<typeinfo>
+	<cstring>
+	<fstream>
+	<utility>
+	<iostream>
+	<stdio.h>
+	<fstream>
+	<sstream>
+	<string>
+	<iomanip>
+	<unistd.h>
+	<stdlib.h>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<ctime>
+	<ctime>
+

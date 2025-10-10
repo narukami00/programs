@@ -1,0 +1,9 @@
+Product: Laptop, Product Name: HP Zbook 15 Mobile Workstation (Quantity: 1)
+Price per unit: 150000
+Total price: 150000
+--------------------------
+Product: GPU, Product Name: Nvidia Geforce RTX 4090 (Quantity: 2)
+Price per unit: 80000
+Total price: 160000
+--------------------------
+Total Bill Amount: 310000

@@ -1,0 +1,9 @@
+Product: Keyboard, Product Name: KING MK75 RGB Gaming Laptop (Quantity: 1)
+Price per unit: 3000
+Total price: 3000
+--------------------------
+Product: Mouse, Product Name: Logitech R55 RBG Gaming Mouse (Quantity: 2)
+Price per unit: 2500
+Total price: 5000
+--------------------------
+Total Bill Amount: 8000

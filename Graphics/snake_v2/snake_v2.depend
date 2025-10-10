@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1720343019 source:d:\codeblocks\projects\graphics\snake_v2\main.cpp
+	<iostream>
+	<list>
+	<tchar.h>
+	<thread>
+	<Windows.h>
+
+1720343548 source:f:\codeblocks\projects\graphics\snake_v2\main.cpp
+	<iostream>
+	<list>
+	<tchar.h>
+	<thread>
+	<Windows.h>
+

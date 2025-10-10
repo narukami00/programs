@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1723662100 source:f:\projects\programs\supashopv2\main.cpp
+	<bits/stdc++.h>
+	<typeinfo>
+	<cstring>
+	<fstream>
+	<utility>
+

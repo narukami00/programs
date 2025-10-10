@@ -1,0 +1,10 @@
+PC Components
+
+Name of component    Manufacturer         Model No             Price     
+
+Monitor              HP                   P204v                10500.00  
+CPU                  Intel                i7 13700K            47500.00  
+RAM                  Kingston FURY        8GB 3200MHz DDR4     2500.00   
+GPU                  Nvidia               GTX 1650 OC          22500.00  
+Motherboard          GIGABYTE             H410M H V2           10000.00  
+                                                               Total cost: 93000.00

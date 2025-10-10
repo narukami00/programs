@@ -1,0 +1,6 @@
+ID: 2207006
+Name: Rafsan Riasat Ayon
+Grades: 65.00 . 67.00 . 87.00 . 78.00 . 88.00 . 
+ID: 2207056
+Name: Mukta Rani Baishnob
+Grades: 78.00 . 76.00 . 67.00 . 65.00 . 55.00 . 

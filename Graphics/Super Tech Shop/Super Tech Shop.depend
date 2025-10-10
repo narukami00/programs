@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1720201854 source:d:\codeblocks\projects\graphics\super tech shop\main.cpp
+	<bits/stdc++.h>
+	<typeinfo>
+	<cstring>
+

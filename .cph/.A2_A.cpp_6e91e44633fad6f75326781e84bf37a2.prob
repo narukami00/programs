@@ -1,0 +1,1 @@
+{"name":"Local: A2_A","url":"f:\\__Projects\\Programs\\A2_A.cpp","tests":[{"id":1737184949951,"input":"3\n([])\n(([()])))\n([()[]()])()","output":"Yes\nNo\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\__Projects\\Programs\\A2_A.cpp","group":"local","local":true}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1702569888 source:d:\codeblocks\projects\bear&bigbrother\main.c
+	<stdio.h>
+	<stdlib.h>
+

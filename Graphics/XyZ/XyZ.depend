@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1704987249 source:d:\codeblocks\projects\graphics\xyz\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"graphics.h"
+	"winbgim.h"
+
+1704987282 d:\codeblocks\projects\graphics\xyz\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1151683706 d:\codeblocks\projects\graphics\xyz\winbgim.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+

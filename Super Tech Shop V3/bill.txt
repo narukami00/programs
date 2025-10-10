@@ -1,0 +1,9 @@
+Product: GPU, Product Name: Nvidia GTX 1660 Super 6GB (Quantity: 1)
+Price per unit: 80000
+Total price: 80000
+--------------------------
+Product: RAM, Product Name: Kingston Fury R8 8GB DDR4 (Quantity: 2)
+Price per unit: 6000
+Total price: 12000
+--------------------------
+Total Bill Amount: 92000

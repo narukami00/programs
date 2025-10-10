@@ -1,0 +1,4 @@
+ram,fury78,Kingston Fury M78 8GB DDR4,3000,10
+laptop,z17g4,HP Zbook 17 G4,130000,4
+mouse,logi88,Logitech N88,2500,13
+laptop,acer55,Acer Nitro 55,90000,4

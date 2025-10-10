@@ -1,0 +1,2 @@
+accessory,mouse,m75,2500
+mobile,note5pro,note 5,20000

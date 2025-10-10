@@ -1,0 +1,1 @@
+{"name":"Local: icpc2","url":"f:\\Projects\\Programs\\icpc2.cpp","tests":[{"id":1731147345370,"input":"2\n57 13 60\n103 17 110","output":"32/1\n1176/23"},{"id":1731147964741,"input":"1\n1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Projects\\Programs\\icpc2.cpp","group":"local","local":true}
