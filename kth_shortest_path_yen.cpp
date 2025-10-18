@@ -148,19 +148,22 @@ int32_t main(){
     Flashyy
     //tc
     {
-        int n,m,k;
-        cin>>n>>m>>k;
+        int n,m;
+        cin>>n>>m;
 
         vector<vector<pair<int,int>>>adj(n);
         for(int i=0;i<m;i++){
             int u,v,w;
             cin>>u>>v>>w;
             adj[u].pb({v,w});
-            adj[v].pb({u,w});
+			//adj[v].pb({u,w});
         }
 
         int src,des;
         cin>>src>>des;
+		
+		int k;
+		cin>>k;
 
         vector<path>res=yens(n,src,des,k,adj);
 
@@ -189,3 +192,15 @@ int32_t main(){
     }
 return 0;
 }
+
+/*
+Input Format :
+
+*0 base indexing for nodes*
+
+V, E - number of vertices & number of edges
+next E lines -> u,v,w - directed edge from node u to v with weight w
+s,t - source node and destination node
+k - Order/Number of shortest path
+
+*/
