@@ -3,3 +3,6 @@
 *.o
 *.dat
 *.out
+/.cph
+/.idea
+/.vscode
