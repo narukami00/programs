@@ -3,6 +3,7 @@
 *.o
 *.dat
 *.out
-/.cph
-/.idea
-/.vscode
+.cph
+.idea
+.vscode
+Java
