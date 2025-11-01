@@ -1,1 +1,0 @@
-{"name":"Local: icpc3","url":"f:\\Projects\\Programs\\icpc3.cpp","tests":[{"id":1731149303169,"input":"3\n1 1\n2 2 \n10 2","output":"Case 1: Evenius\nCase 2: Oddius\nCase 3: Oddius"},{"id":1731152754027,"input":"3\n9 2\n1 2\n3 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Projects\\Programs\\icpc3.cpp","group":"local","local":true}
