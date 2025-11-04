@@ -18,6 +18,7 @@ void gauss_jordan_elimination(vector<vector<double>>aug_mat,int n){
                 for(int j=0;j<=n;j++){
                     aug_mat[k][j]-=fact*aug_mat[i][j];
                 }
+                //aug_mat[k][n]-=fact*aug_mat[i][n];
             }
         }
     }
