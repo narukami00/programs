@@ -73,7 +73,7 @@ int32_t main(){
 
         auto table=div_dif(x,y,n+1);
 
-        double interp_val=0.0;
+        double interp_val=table[0][0];
         for(int i=1;i<n;i++){
             interp_val+=table[0][i]*prod_terms(val,x,i);
         }

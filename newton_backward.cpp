@@ -74,8 +74,8 @@ int32_t main(){
         auto table=div_diff(x,y,n+1);
 
         double res=table[n-1][0];
-        for(int k=1;k<n;k++){
-            res+=prod_terms(val,x,n-1,k)*table[n-1-k][k];
+        for(int i=1;i<n;i++){
+            res+=prod_terms(val,x,n-1,i)*table[n-1-i][i];
         }
 
         double trnc=prod_terms(val,x,n-1,n)*table[0][n];
