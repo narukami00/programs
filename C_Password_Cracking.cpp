@@ -2,52 +2,77 @@
 using namespace std;
 #define int long long
 #define double long double
-#define endl '\n'
 #define no cout<<"NO\n"
 #define yes cout<<"YES\n"
-#define Flashyy ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 #define sp " "
+#define Flashyy ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define tc int TC;cin>>TC;for(int tt=1;tt<=TC;tt++)
 #define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define sz(x) x.size()
+#define f first
+#define s second
+#define pb push_back
+#define eb emplace_back
 
-template <typename T> // cin >> vector<T>
+template <typename T>
 istream &operator>>(istream &istream, vector<T> &v)
 {
     for (auto &it : v)
         cin >> it;
     return istream;
 }
-template <typename T> // cout << vector<T>
+template <typename T>
 ostream &operator<<(ostream &ostream, const vector<T> &c)
 {
     for (auto &it : c)
-        cout << it << " ";
+        cout << it ;
     return ostream;
 }
 
-int gcd(int a, int b) {
-    while (b != 0) {
-        int tmp = a % b;
-        a = b;
-        b = tmp;
-    }
-    return a;
-}
-int lcm(int a, int b) {
-    return a * b / gcd(a, b);
-}
-
-int rsum(int x, int y){
-    if(x>y)return 0;
-    return (x+y)*(y-x+1)/2;
-}
-
-#define tc int TC;cin>>TC;for(int tt=1;tt<=TC;tt++)
-
 int32_t main(){
-    Flashyy
     tc
     {
+        int n;
+        cin>>n;
+        deque<int>q;
+        bool f=0;
+        while(sz(q)<n){
+            int x;
+            if(!f){
+                q.pb(0);
+                cout<<"? ";
+                for(int i=0;i<sz(q);i++)cout<<q[i];
+                cout<<endl;
+                cin>>x;
+                if(x)continue;
+                q.pop_back();
 
+                q.pb(1);
+                cout<<"? ";
+                for(int i=0;i<sz(q);i++)cout<<q[i];
+                cout<<endl;
+                cin>>x;
+                if(x)continue;
+                q.pop_back();
+                f=1;
+            }
+
+            if(f==1){
+                q.push_front(0);
+                cout<<"? ";
+                for(int i=0;i<sz(q);i++)cout<<q[i];
+                cout<<endl;
+                cin>>x;
+                if(x)continue;
+                q.pop_front();
+
+                q.push_front(1);
+            }
+        }
+        cout<<"! ";
+        for(int i=0;i<sz(q);i++)cout<<q[i];
+        cout<<endl;
     }
 return 0;
 }
