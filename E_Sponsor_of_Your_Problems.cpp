@@ -39,36 +39,35 @@ int32_t main(){
         cin>>l>>r;
         int n=sz(l);
 
-        int dp[10][2][2];
-        dp[n][0][0]=0;
-        dp[n][0][1]=0;
-        dp[n][1][0]=0;
-        dp[n][1][1]=0;
+        int ans=0;
+        int i=0;
 
-        for(int p=n-1;p>=0;p--){
-            int ldig=l[p]-'0';
-            int rdig=r[p]-'0';
-
-            for(int i=0;i<2;i++){
-                for(int j=0;j<2;j++){
-                    int best=LLONG_MAX;
-                    int L=i?ldig:0;
-                    int R=j?rdig:9;
-
-                    for(int dig=L;dig<=R;dig++){
-                        int cost=(dig==ldig)+(dig==rdig);
-                        int fl=i&&(dig==ldig);
-                        int fr=j&&(dig==rdig);
-
-                        best=min(best,cost+dp[p+1][fl][fr]);
-                    }
-
-                    dp[p][i][j]=best;
-                }
-            }
+        while(i<n && l[i]==r[i]){
+            ans+=2;
+            i++;
         }
-        
-        cout<<dp[0][1][1]<<endl;
+
+        if(i==n){
+            cout<<ans<<endl;
+            continue;
+        }
+
+        if(r[i]-l[i]>=2){
+            cout<<ans<<endl;
+        }else{
+            int costl=1,costr=1;
+            int j=i+1;
+            while(j<n && l[j]=='9'){
+                costl++;
+                j++;
+            }
+            j=i+1;
+            while(j<n && r[j]=='0'){
+                costr++;
+                j++;
+            }
+            cout<<ans+min(costl,costr)<<endl;
+        }
     }
 return 0;
 }
